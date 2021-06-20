@@ -6,7 +6,12 @@ const URL ='https://api.themoviedb.org/3';
 
   const APISTRING =`?api_key=${APIKEY}&language=pt-BR`;
 
+  const EVENTS ={
+    PosterClick: 'PosterClick',
+    ModalClose: 'ModalClose',
+  };
+
 
   export default {
-      URL, IMAGEURL, APIKEY, APISTRING
+      URL, IMAGEURL, APIKEY, APISTRING, EVENTS
   };

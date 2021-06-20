@@ -5,9 +5,13 @@ import cover2 from '../assets/image-2.jpg';
 import cover3 from '../assets/image-3.jpg';
 
 export interface Movie {
-    title: string;
-    cover: string;
-    score?: number | string;
+    title?: string;
+    name?: string;
+    cover?: string;
+    poster_path?: string;
+    vote_average?: number | string;
+    id?: number | string;
+   
 }
 
 

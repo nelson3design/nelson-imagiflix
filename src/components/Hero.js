@@ -1,4 +1,5 @@
 import React from 'react';
+import '../App.css';
 import CONTS from '../data/Contants';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -15,12 +16,12 @@ const Hero = ({ backdrop_path = null, title='Avengers Endgame', vote_average='10
   return(
 
  
-    <header className="relative min-h-screen -mb-64">
+    <header className=" hero relative min-h-screen -mb-64">
         <img className='object-cover object-center h-full w-full text-white' src={backdrop_path ? `${IMAGEURL}/original/${backdrop_path}` :placeholder} alt='filme em destaque'/>
 
       <div className='absolute bottom-0 w-full h-full  bg-gradient-to-t bg-transparent  from-black  '></div>
 
-        <article className='absolute bottom-96 px-20'>
+        <article className=' hero-content absolute bottom-96 px-20'>
             <h4 className="text-2xl mb-4">Assista agora:</h4>
 
           <h2 className="text-5xl font-bold">{title}</h2>

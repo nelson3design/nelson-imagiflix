@@ -10,3 +10,14 @@
 .poster:hover {
 	opacity: 1;
 }
+
+@media screen and (max-width: 992px) {
+	.title {
+		width: 100vW;
+		height: 100%;
+
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+}

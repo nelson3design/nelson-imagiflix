@@ -18,20 +18,17 @@ const Navbar = () =>{
 
     return(
 
-    <nav className=' absolute top-0 left-0 grid grid-cols-2 items-center w-full py-8 px-20'>
+    <nav className='navbar absolute top-0 left-0 grid grid-cols-2 items-center w-full py-8 px-20'>
 
-        <div className='flex justify-start gap-10 items-center'>
+        <div className='logo-menu flex justify-start gap-10 items-center'>
 
-                {/* logo */}
-            <div>
-
-              <h1 className='hidden'>imagiflix</h1>
-
+              
+            <div className='logo'>
               <img src={logo} alt='imagiflix'/>
             </div>
             
 
-            <ul className='flex gap-4'>
+            <ul className=' menu flex gap-4'>
                 <li ><a href="#" className='font-bold'>Inicio</a></li>
 
                 <li><a href="#series">Series</a></li>
@@ -44,7 +41,7 @@ const Navbar = () =>{
 
         <div className='relative flex justify-end items-center gap-2'>
 
-            <div className='px-4 w-64'>
+            <div className='search px-4 w-64'>
                 <form className='nav relative '>
                     <input className='w-full text-white bg-black px-2 border rounded py-1 transition-all duration-300 ease-in-out opacity-0 
                     focus:opacity-100'
