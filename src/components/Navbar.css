@@ -1,3 +1,49 @@
 .nav:hover > input {
 	opacity: 1;
 }
+
+@media screen and (max-width: 599px) {
+	.navbar {
+		padding: 30px 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+	}
+	.logo-menu {
+		display: block;
+	}
+
+	.logo {
+		/* display: none; */
+	}
+	.menu {
+		gap: 25px;
+	}
+
+	.search {
+		width: 150px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+	.navbar {
+		padding: 30px 20px;
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
+	}
+	.logo-menu {
+		display: block;
+	}
+
+	.logo {
+		/* display: none; */
+	}
+	.menu {
+		gap: 25px;
+	}
+
+	.search {
+		width: 300px;
+	}
+}

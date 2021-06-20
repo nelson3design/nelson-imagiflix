@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import '../App.css';
 import Slick from 'react-slick';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -62,7 +62,7 @@ const Carousel = ({ title ='Filmes em destaqe ', data = mockData}: CarouselData)
 
         <section className='carousel' >
 
-            <h2 className='relative font-bold text-4xl pl-20'>{title}</h2>
+            <h2 className='title relative font-bold text-4xl pl-20'>{title}</h2>
 
         <Slick className='relative mb-8' {...settings}>
 
