@@ -6,14 +6,15 @@
 .modal{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     /* padding: 0px; */
 }
 
 .modal-img{
-    width: 130px;
+    /* width: 130px; */
+    height: 250px;
   object-fit: cover;
 
 }
@@ -56,7 +57,7 @@
 }
 
 .modal-img{
-    width: 200px;
+    height: 350px;
   object-fit: cover;
 
 }
