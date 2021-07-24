@@ -1,0 +1,88 @@
+
+
+@media screen and (max-width: 599px) {
+
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* padding: 0px; */
+}
+
+.modal-img{
+    width: 130px;
+  object-fit: cover;
+
+}
+
+.modal-itens{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-itens h2{
+    font-size: 18px;
+}
+.modal-itens h6{
+    font-size: 15px;
+}
+.modal-itens p{
+    font-size: 10px;
+}
+
+.modal-close{
+    position: absolute;
+   
+    right: 20px;
+    top: 15px;
+   
+}
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* padding: 0px; */
+}
+
+.modal-img{
+    width: 200px;
+  object-fit: cover;
+
+}
+
+.modal-itens{
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.modal-itens h2{
+    font-size: 18px;
+}
+.modal-itens h6{
+    font-size: 15px;
+}
+.modal-itens p{
+    font-size: 10px;
+}
+
+.modal-close{
+    position: absolute;
+   
+    right: 20px;
+    top: 15px;
+   
+}
+}
